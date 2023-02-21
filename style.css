@@ -1,0 +1,50 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+}
+
+.light-bulb {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+
+.light {
+    display: inline-block;
+    background-color: yellow;
+    border-radius: 20%;
+    
+}
+
+.dark {
+    background-color: black;
+}
+
+.color_btn {
+    background-color: white !important;
+    color: black !important;
+}
+
+
+.bulb ion-icon {
+    font-size: 250px;
+}
+
+.light-bulb button {
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
